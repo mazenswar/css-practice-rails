@@ -1,0 +1,6 @@
+
+<ul class="dogs-index">
+    <% @dogs.each do |dog| %>
+        <li class="dog-card"><%=link_to dog.name, dog %></li>
+    <% end  %>
+</ul>

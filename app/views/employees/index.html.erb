@@ -1,0 +1,14 @@
+
+
+<a class="dogs-link" href="/dogs"> Dogs </a>
+
+<h1 class="index-h1"> Dunder Mifflin </h1>
+<ul class="employees-index" >
+<% @employees.each do |emp| %>
+    <a href="/employees/<%= emp.id %>">
+    <li class="employee-card">
+        <img src=<%=emp.img_url%>>
+        <h2><%=emp.name%></h2>
+    </li>
+<% end  %>
+</ul>

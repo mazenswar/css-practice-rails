@@ -1,3 +1,31 @@
 // Place all the styles related to the Dogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.dogs-index {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.dog-card {
+    height: 15vw;
+    width: 15vw;
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 100%;
+}
+
+
+.dog-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.dog-card a:hover {
+    transform: scale(1.5);
+}
+

@@ -1,19 +1,71 @@
 # The Dunder Mifflin Pet Show
+# CSS Lecture
+
+**What is CSS?**
+
+CSS stands for Cascading Style Sheets (CSS). It is a stylesheet language used to manipulate the way in which elements are rendered on the screen.
+
+[CSS: Cascading Style Sheets \| MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
-You're right on your way to help The Dunder Mifflin Paper Company with their brand new application. It is meant to 
-showcase each of the employees' pets. We’ve started some of the work for you, and we need your help to get our site fully working! Here are the deliverables:
+Where does CSS fit in?
 
-- Build out the associations for the models we've created. If you look into the `seeds.rb` file, you'll notice that we've put
-in the desired models and expected associations to make our app work. **However**, you need to change the schema in order
-for you to be able to run `rake db:seed`. Every employee can only be connected to a single dog, and a dog can have many owners.
-- For our index page for Dogs, a user should be able to click on a specific dog and take them to the corresponding show page.
-- The Dog show page should have their name, breed, age and the list of Dunder Mifflin Employees they are connected to
-- For our index page for Employees, a user should be able to click on a specific Employee and take them to their corresponding show page.
-- The Employee show page should list all of their attributes (and as a bonus, try to get their picture to show up!)
+![](https://pics.me.me/thumb_html-css-js-mr-website-dev-human-55187847.png)
 
-As a user, I should be able to create AND edit an Employee, and only be able to select 1 dog from a list of already existing dogs.
 
-No one at Dunder Mifflin can have the same alias and/or job title (Dwight made up that rule!)
+**Box Model:**
 
-BONUS: Make an option to sort the dogs on the index page by the number of employees that belong to them.
+**Content** - Text / Images
+**Padding** - The area between the border of the "box" and the content. The padding is transparent
+**Margin** - The area outside the "box". The margin is transparent
+**Border** - The border of the "box".
+
+**Default CSS values for HTML Elements**
+
+Some HTML elements have default CSS values (block vs inline elements, etc).
+
+
+**CSS Selectors**
+
+- Allow you to the choose elements you want to style (div, #one, .two)
+
+**CSS Specificity**
+
+Decides which styles takes precedence and is applied.
+- Inline style
+- IDs
+- Classes
+- Elements
+
+**Layouts & Positioning:**
+
+- Flexbox
+
+**CSS Building Blocks:**
+- Display
+- Position
+- Width
+- Max-width
+- Height
+- Max-height
+- Margin
+- Padding
+- Border
+- Border-radius
+- Background-color
+- Color
+- Font-size
+- Font-style
+- Text-align
+- Overflow
+
+
+
+**Useful Links**
+- https://www.cssmatic.com/
+- https://fonts.google.com/ 
+- https://colorhunt.co/
+- http://colormind.io/
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- https://www.w3schools.com/cssref/css_default_values.asp
+

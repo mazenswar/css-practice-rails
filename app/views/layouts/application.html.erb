@@ -3,12 +3,16 @@
   <head>
     <title>DunderMifflinPetShop</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %> 
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <nav> 
+      <a class="nav-link" href='/employees'> Employees </a>
+      <a class="nav-link" href='/dogs'> Dogs </a>
+      <a class="nav-link" href='/#'> About </a>
+    </nav>
     <%= yield %>
   </body>
 </html>

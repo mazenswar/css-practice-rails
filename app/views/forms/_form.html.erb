@@ -1,0 +1,6 @@
+    <%= text_field :employee, :first_name %>
+    <%= text_field :employee, :last_name %>
+    <%= text_field :employee, :alias %>
+    <%= text_field :employee, :office%>
+    <%= collection_select @employee, :dog_id, Dog.all, :id, :name %>
+    <%= submit_tag "submit" %>

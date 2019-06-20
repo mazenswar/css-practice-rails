@@ -1,3 +1,107 @@
 // Place all the styles related to the Employees controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+// understanding what you are working with
+
+// .employees-index {
+//     list-style: none;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     border: 1px solid red;
+// }
+
+// .employee-card {
+//     background: green;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     height: 15vw;
+//     width: 18vw;
+//     margin: 1.5vw;
+// }
+
+// .employee-card img {
+//     width: 8vw;
+// }
+
+
+// v1
+
+
+
+.dogs-link {
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    padding: 3vw;
+    border-radius: 20px;
+    background-color:#262626;
+    color: white;
+    text-decoration: none;
+}
+
+.index-h1 {
+    margin: 2vw auto;
+    width: fit-content;
+    padding: 3vw;
+    border-radius: 30px;
+    border: 1px solid #262626;
+
+}
+
+.employees-index {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.employees-index a {
+    transition: 0.8s;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 22vw;
+    margin: 2vw;
+    border-radius: 40px;
+    box-shadow: 7px 10px 28px -5px rgba(145,145,145,1);
+}
+
+.employees-index a:hover {
+    transform: scale(1.1);
+    background-color: #262626;
+    color: white;
+    
+}
+
+.employee-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 22vw;
+    margin: 1.5vw;
+    border-radius: 40px;
+    box-shadow: 7px 10px 28px -5px rgba(145,145,145,1);
+}
+
+
+.employee-card img {
+    width: 15vw;
+    // max-height: 15vw;
+    margin: 1vw;
+}
+
+
